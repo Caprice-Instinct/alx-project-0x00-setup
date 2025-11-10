@@ -14,6 +14,14 @@ const Landing: React.FC = () => {
         title="Join us now"
         styles="border px-5 py-5 text-green rounded-full bg-yellow-500"
       />
+      <Button
+        title="Small Rounded"
+        styles="border px-3 py-1 bg-green-500 text-white rounded-sm"
+      />
+      <Button
+        title="Medium Rounded"
+        styles="border px-3 py-1 bg-red-500 text-white rounded-md"
+      />
     </div>
   );
 };
